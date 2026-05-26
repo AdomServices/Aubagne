@@ -6,18 +6,8 @@
     <title>ADOM SERVICES - Aide à domicile à Aubagne</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <style type="text/css">
-        @theme {
-            --color-marine-950: #0a1128;
-            --color-marine-900: #1c2541;
-            --color-marine-800: #3b4c74;
-            --color-rose-primary: #ec4899;
-            --color-violet-primary: #8b5cf6;
-        }
-    </style>
 </head>
-<body class="bg-white text-marine-900 font-sans antialiased">
+<body class="bg-white font-sans antialiased" style="color: #1c2541;">
 
     <script>
         // VOS DONNÉES OFFICIELLES
@@ -48,35 +38,35 @@
     <nav class="fixed w-full z-50 bg-white/95 shadow-md border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex justify-between items-center">
             <div class="flex items-center gap-2">
-                <div class="w-10 h-10 bg-gradient-to-br from-rose-primary to-violet-primary rounded-lg flex items-center justify-center text-white shadow-md">
+                <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white shadow-md" style="background: linear-gradient(135deg, #ec4899, #8b5cf6);">
                     <i class="fa-solid fa-heart text-xl"></i>
                 </div>
-                <span class="font-bold text-xl text-marine-950 tracking-tight">ADOM SERVICES</span>
+                <span class="font-bold text-xl tracking-tight" style="color: #0a1128;">ADOM SERVICES</span>
             </div>
-            <div class="hidden md:flex gap-8 items-center font-semibold text-marine-800">
-                <a href="#services" class="hover:text-rose-primary transition">Nos Services</a>
-                <a href="#agence" class="hover:text-rose-primary transition">L'Agence</a>
-                <a href="#recrutement" class="hover:text-rose-primary transition">Recrutement</a>
-                <a href="#contact" class="bg-gradient-to-r from-rose-primary to-violet-primary text-white px-5 py-2 rounded-lg hover:shadow-lg hover:brightness-110 transition">Demander un devis</a>
+            <div class="hidden md:flex gap-8 items-center font-semibold">
+                <a href="#services" class="transition hover:text-[ #ec4899]" style="color: #3b4c74;">Nos Services</a>
+                <a href="#agence" class="transition hover:text-[ #ec4899]" style="color: #3b4c74;">L'Agence</a>
+                <a href="#recrutement" class="transition hover:text-[ #ec4899]" style="color: #3b4c74;">Recrutement</a>
+                <a href="#contact" class="text-white px-5 py-2 rounded-lg hover:shadow-lg hover:brightness-110 transition" style="background: linear-gradient(to right, #ec4899, #8b5cf6);">Demander un devis</a>
             </div>
         </div>
     </nav>
 
-    <section class="pt-32 pb-20 bg-gradient-to-br from-slate-50 via-white to-rose-50/20 text-center px-4 relative overflow-hidden">
+    <section class="pt-32 pb-20 text-center px-4 relative overflow-hidden" style="background: linear-gradient(135deg, #f8fafc, #fff, #fdf2f8);">
         <div class="max-w-4xl mx-auto relative z-10">
-            <span class="inline-block mb-6 px-4 py-1.5 bg-violet-50 border border-violet-200 text-violet-primary rounded-full text-sm font-semibold shadow-sm">🛡️ Agréé par le Conseil Départemental des Bouches-du-Rhône</span>
-            <h1 class="text-4xl sm:text-6xl font-extrabold text-marine-950 mb-6 leading-tight">Bien vivre chez soi, en toute <span class="bg-gradient-to-r from-rose-primary to-violet-primary bg-clip-text text-transparent">sérénité</span></h1>
+            <span class="inline-block mb-6 px-4 py-1.5 bg-violet-50 border border-violet-200 rounded-full text-sm font-semibold shadow-sm" style="color: #8b5cf6;">🛡️ Agréé par le Conseil Départemental des Bouches-du-Rhône</span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold mb-6 leading-tight" style="color: #0a1128;">Bien vivre chez soi, en toute <span style="background: linear-gradient(to right, #ec4899, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">sérénité</span></h1>
             <p class="text-lg sm:text-xl text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">De l'accompagnement du grand âge au confort de votre ménage quotidien. Une équipe d'experts sectorisés à <strong>Aubagne</strong> et ses environs.</p>
             
             <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-                <a href="#contact" class="bg-gradient-to-r from-rose-primary to-violet-primary text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-xl hover:brightness-110 transition text-center">Demander un devis gratuit</a>
-                <a href="javascript:void(0)" class="global-phone-href border-2 border-slate-200 bg-white text-marine-900 px-8 py-4 rounded-lg font-bold text-lg hover:border-violet-primary hover:text-violet-primary transition text-center">Nous appeler : <span class="global-phone"></span></a>
+                <a href="#contact" class="text-white px-8 py-4 rounded-lg font-bold text-lg hover:shadow-xl hover:brightness-110 transition text-center" style="background: linear-gradient(to right, #ec4899, #8b5cf6);">Demander un devis gratuit</a>
+                <a href="javascript:void(0)" class="global-phone-href border-2 border-slate-200 bg-white px-8 py-4 rounded-lg font-bold text-lg hover:brightness-95 transition text-center" style="color: #1c2541;">Nous appeler : <span class="global-phone"></span></a>
             </div>
 
             <div class="grid grid-cols-3 gap-4 max-w-xl mx-auto bg-white p-6 rounded-xl shadow-md border border-slate-100">
-                <div><div id="txt-exp" class="text-2xl sm:text-3xl font-bold text-rose-primary mb-1">18 Ans</div><p class="text-xs text-slate-500 font-semibold">D'expérience</p></div>
-                <div><div class="text-2xl sm:text-3xl font-bold text-violet-primary mb-1">500+</div><p class="text-xs text-slate-500 font-semibold">Familles suivies</p></div>
-                <div><div class="text-2xl sm:text-3xl font-bold text-rose-primary mb-1">98%</div><p class="text-xs text-slate-500 font-semibold">De satisfaction</p></div>
+                <div><div id="txt-exp" class="text-2xl sm:text-3xl font-bold mb-1" style="color: #ec4899;">18 Ans</div><p class="text-xs text-slate-500 font-semibold">D'expérience</p></div>
+                <div><div class="text-2xl sm:text-3xl font-bold mb-1" style="color: #8b5cf6;">500+</div><p class="text-xs text-slate-500 font-semibold">Familles suivies</p></div>
+                <div><div class="text-2xl sm:text-3xl font-bold mb-1" style="color: #ec4899;">98%</div><p class="text-xs text-slate-500 font-semibold">De satisfaction</p></div>
             </div>
         </div>
     </section>
@@ -84,41 +74,41 @@
     <section id="services" class="py-20 px-4 bg-slate-50">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-marine-950 mb-4">Des prestations sur-mesure pour chacun</h2>
+                <h2 class="text-3xl font-bold mb-4" style="color: #0a1128;">Des prestations sur-mesure pour chacun</h2>
                 <p class="text-slate-600 max-w-xl mx-auto">Structure de confiance à Aubagne, nous prenons en charge 100% de la gestion administrative.</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-rose-50 rounded-xl flex items-center justify-center text-rose-primary mb-6 text-xl shadow-md shadow-rose-100"><i class="fa-solid fa-heart"></i></div>
-                    <h3 class="text-xl font-bold text-marine-950 mb-3">Autonomie & Grand Âge</h3>
+                    <div class="w-12 h-12 bg-rose-50 rounded-xl flex items-center justify-center mb-6 text-xl shadow-md" style="color: #ec4899;"><i class="fa-solid fa-heart"></i></div>
+                    <h3 class="text-xl font-bold mb-3" style="color: #0a1128;">Autonomie & Grand Âge</h3>
                     <p class="text-slate-600 text-sm mb-6">Maintien à domicile sécurisé pour les aînés et personnes en situation de handicap.</p>
                     <ul class="space-y-3 text-slate-700 text-sm mb-6">
-                        <li><i class="fa-solid fa-check text-rose-primary mr-2"></i> Aide au lever, coucher & toilette</li>
-                        <li><i class="fa-solid fa-check text-rose-primary mr-2"></i> Préparation et aide aux repas</li>
-                        <li><i class="fa-solid fa-check text-rose-primary mr-2"></i> Garde de nuit & présence rassurante</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #ec4899;"></i> Aide au lever, coucher & toilette</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #ec4899;"></i> Préparation et aide aux repas</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #ec4899;"></i> Garde de nuit & présence rassurante</li>
                     </ul>
                 </div>
 
                 <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-violet-50 rounded-xl flex items-center justify-center text-violet-primary mb-6 text-xl shadow-md shadow-violet-100"><i class="fa-solid fa-house"></i></div>
-                    <h3 class="text-xl font-bold text-marine-950 mb-3">Ménage & Entretien</h3>
+                    <div class="w-12 h-12 bg-violet-50 rounded-xl flex items-center justify-center mb-6 text-xl shadow-md" style="color: #8b5cf6;"><i class="fa-solid fa-house"></i></div>
+                    <h3 class="text-xl font-bold mb-3" style="color: #0a1128;">Ménage & Entretien</h3>
                     <p class="text-slate-600 text-sm mb-6">Confiez vos clés à des professionnels rigoureux et gagnez du temps libre.</p>
                     <ul class="space-y-3 text-slate-700 text-sm mb-6">
-                        <li><i class="fa-solid fa-check text-violet-primary mr-2"></i> Nettoyage minutieux des pièces</li>
-                        <li><i class="fa-solid fa-check text-violet-primary mr-2"></i> Repassage & entretien du linge</li>
-                        <li><i class="fa-solid fa-check text-violet-primary mr-2"></i> Aucun engagement de durée</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #8b5cf6;"></i> Nettoyage minutieux des pièces</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #8b5cf6;"></i> Repassage & entretien du linge</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #8b5cf6;"></i> Aucun engagement de durée</li>
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-marine-950 to-marine-900 rounded-2xl p-8 text-white shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center text-rose-primary mb-6 text-xl shadow-md"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="rounded-2xl p-8 text-white shadow-sm hover:shadow-md transition" style="background: linear-gradient(135deg, #0a1128, #1c2541);">
+                    <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mb-6 text-xl shadow-md" style="color: #ec4899;"><i class="fa-solid fa-briefcase"></i></div>
                     <h3 class="text-xl font-bold mb-3">Espace Recrutement</h3>
                     <p class="text-slate-300 text-sm mb-6">Auxiliaire de vie ou assistant ménager ? Rejoignez une équipe à votre écoute.</p>
                     <ul class="space-y-3 text-slate-200 text-sm mb-6">
-                        <li><i class="fa-solid fa-check text-rose-primary mr-2"></i> Directement en CDI à temps choisi</li>
-                        <li><i class="fa-solid fa-check text-rose-primary mr-2"></i> Planning stable et sectorisé</li>
-                        <li><i class="fa-solid fa-check text-rose-primary mr-2"></i> Mutuelle d'entreprise & primes</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #ec4899;"></i> Directement en CDI à temps choisi</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #ec4899;"></i> Planning stable et sectorisé</li>
+                        <li><i class="fa-solid fa-check mr-2" style="color: #ec4899;"></i> Mutuelle d'entreprise & primes</li>
                     </ul>
                 </div>
             </div>
@@ -128,13 +118,13 @@
     <section id="agence" class="py-20 px-4 bg-white">
         <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <span class="text-xs font-bold text-rose-primary uppercase tracking-wider block mb-2">Proximité & Humain depuis 2008</span>
-                <h2 class="text-3xl font-bold text-marine-950 mb-6">Votre agence au cœur d'Aubagne</h2>
+                <span class="text-xs font-bold uppercase tracking-wider block mb-2" style="color: #ec4899;">Proximité & Humain depuis 2008</span>
+                <h2 class="text-3xl font-bold mb-6" style="color: #0a1128;">Votre agence au cœur d'Aubagne</h2>
                 <p class="text-slate-600 mb-4 leading-relaxed">Depuis 2008, <strong>ADOM SERVICES</strong> accompagne les familles des Bouches-du-Rhône. Face aux grands réseaux nationaux dématérialisés, nous faisons le choix d'un ancrage profondément local au 7 avenue Roger Salengro à Aubagne.</p>
                 <p class="text-slate-600 leading-relaxed">Chaque dossier débute par une évaluation gratuite à votre domicile pour sélectionner l'intervenant idéal.</p>
             </div>
             <div class="bg-slate-50 border border-slate-200 p-8 rounded-2xl">
-                <h3 class="font-bold text-xl text-marine-950 mb-4">Vos Avantages Financiers</h3>
+                <h3 class="font-bold text-xl mb-4" style="color: #0a1128;">Vos Avantages Financiers</h3>
                 <div class="space-y-4 text-sm text-slate-700">
                     <p><strong>💳 Crédit d'impôt immédiat de 50% :</strong> Grâce à l'avance de l'URSSAF, vous ne payez que la moitié de la facture.</p>
                     <p><strong>📋 Prise en charge APA & PCH :</strong> Notre agrément permet d'activer directement vos allocations d'autonomie.</p>
@@ -145,31 +135,31 @@
     </section>
 
     <section id="contact" class="py-20 px-4 bg-slate-50">
-        <div class="max-w-3xl mx-auto bg-gradient-to-br from-marine-950 to-marine-900 rounded-3xl p-8 sm:p-12 text-white shadow-xl">
+        <div class="max-w-3xl mx-auto rounded-3xl p-8 sm:p-12 text-white shadow-xl" style="background: linear-gradient(135deg, #0a1128, #1c2541);">
             <div class="text-center mb-8">
                 <h2 class="text-3xl font-bold">Demande de devis gratuit</h2>
                 <p class="text-slate-400 text-sm mt-2">Réponse sous 48h. Aucun engagement.</p>
             </div>
             <form onsubmit="alert('Demande de devis transmise avec succès ! Notre conseiller vous recontacte rapidement.'); return false;" class="space-y-4 text-slate-900">
                 <div class="grid sm:grid-cols-2 gap-4">
-                    <input type="text" required placeholder="Nom & Prénom" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-rose-primary">
-                    <input type="tel" required placeholder="Téléphone" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-rose-primary">
+                    <input type="text" required placeholder="Nom & Prénom" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-pink-500">
+                    <input type="tel" required placeholder="Téléphone" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-pink-500">
                 </div>
                 <div class="grid sm:grid-cols-2 gap-4">
-                    <input type="email" required placeholder="Adresse Email" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-rose-primary">
-                    <select class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm text-slate-500 border-2 border-transparent focus:border-rose-primary">
+                    <input type="email" required placeholder="Adresse Email" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-pink-500">
+                    <select class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm text-slate-500 border-2 border-transparent focus:border-pink-500">
                         <option>Aide à l'autonomie (Senior / Handicap)</option>
                         <option>Ménage & Repassage quotidien</option>
                         <option>Autre demande</option>
                     </select>
                 </div>
-                <textarea placeholder="Décrivez brièvement votre besoin..." rows="4" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-rose-primary"></textarea>
-                <button type="submit" class="w-full bg-gradient-to-r from-rose-primary to-violet-primary text-white font-bold py-3 rounded-lg hover:brightness-110 transition text-sm shadow-md">Envoyer ma demande</button>
+                <textarea placeholder="Décrivez brièvement votre besoin..." rows="4" class="w-full bg-white px-4 py-3 rounded-lg outline-none text-sm border-2 border-transparent focus:border-pink-500"></textarea>
+                <button type="submit" class="w-full text-white font-bold py-3 rounded-lg hover:brightness-110 transition text-sm shadow-md" style="background: linear-gradient(to right, #ec4899, #8b5cf6);">Envoyer ma demande</button>
             </form>
         </div>
     </section>
 
-    <footer class="bg-marine-950 text-slate-400 px-4 py-12 border-t border-slate-800">
+    <footer class="text-slate-400 px-4 py-12 border-t border-slate-800" style="background-color: #0a1128;">
         <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 text-sm">
             <div>
                 <h4 class="text-white font-bold text-base mb-3">ADOM SERVICES</h4>
@@ -177,9 +167,9 @@
             </div>
             <div>
                 <h4 class="text-white font-bold text-base mb-3">Nous contacter</h4>
-                <p class="mb-2"><i class="fa-solid fa-phone text-rose-primary mr-2"></i> <a class="global-phone-href text-slate-400 hover:text-white transition"><span class="global-phone"></span></a></p>
-                <p class="mb-2"><i class="fa-solid fa-envelope text-rose-primary mr-2"></i> <a class="global-email-href text-slate-400 hover:text-white transition"><span class="global-email"></span></a></p>
-                <p><i class="fa-solid fa-map-pin text-rose-primary mr-2"></i> <span class="global-adresse"></span></p>
+                <p class="mb-2"><i class="fa-solid fa-phone mr-2" style="color: #ec4899;"></i> <a class="global-phone-href text-slate-400 hover:text-white transition"><span class="global-phone"></span></a></p>
+                <p class="mb-2"><i class="fa-solid fa-envelope mr-2" style="color: #ec4899;"></i> <a class="global-email-href text-slate-400 hover:text-white transition"><span class="global-email"></span></a></p>
+                <p><i class="fa-solid fa-map-pin mr-2" style="color: #ec4899;"></i> <span class="global-adresse"></span></p>
             </div>
             <div>
                 <h4 class="text-white font-bold text-base mb-3">Secteur d'intervention</h4>
